@@ -1,0 +1,30 @@
+.text {
+  //display: none;
+  & * {
+    margin-bottom: 10px;
+  }
+  font-size: 24px;
+  &-cicle {
+    font-family: 'Circe';
+  }
+
+  &-cicle-bold {
+    font-family: 'Circe';
+    font-weight: bold;
+  }
+
+  &-IntroScriptR {
+    font-family: "IntroScriptR";
+  }
+
+  &-PlayfairDisplay-bold {
+    font-family: "Playfair Display";
+    font-weight: bold;
+  }
+
+  &-PlayfairDisplay-bold-itaic {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-style: italic;
+  }
+}
