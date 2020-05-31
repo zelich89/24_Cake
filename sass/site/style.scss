@@ -1,7 +1,7 @@
 .text {
   //display: none;
   & * {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   font-size: 24px;
   &-cicle {
@@ -22,7 +22,7 @@
     font-weight: bold;
   }
 
-  &-PlayfairDisplay-bold-itaic {
+  &-PlayfairDisplay-bold-italic {
     font-family: "Playfair Display";
     font-weight: bold;
     font-style: italic;
