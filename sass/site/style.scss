@@ -1,6 +1,6 @@
 .text {
   //display: none;
-  & * {
+  & *:not(:last-child) {
     margin-bottom: 20px;
   }
   font-size: 24px;
