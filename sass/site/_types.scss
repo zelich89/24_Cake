@@ -1,16 +1,16 @@
 
 @font-face {
   font-family: 'Circe';
-  src: url('../fonts/Circle-Regular.eot');
-  src: local('☺'), url('../fonts/Circle-Regular.woff') format('woff'), url('../fonts/Circle-Regular.ttf') format('truetype'), url('../fonts/Circle-Regular.svg') format('svg');
+  src: url('../fonts/circe.eot');
+  src: url('../fonts/circe.eot?#iefix') format('embedded-opentype'),  url('../fonts/circe.woff2') format('woff2'),  url('../fonts/circe.woff') format('woff'),  url('../fonts/circe.ttf') format('truetype'),  url('../fonts/circe.svg#circe') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Circe';
-  src: url('../fonts/Circle-Bold.eot');
-  src: local('☺'), url('../fonts/Circle-Bold.woff') format('woff'), url('../fonts/Circle-Bold.ttf') format('truetype'), url('../fonts/Circle-Bold.svg') format('svg');
+  src: url('../fonts/circe_bold.eot');
+  src: url('../fonts/circe_bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/circe_bold.woff2') format('woff2'),  url('../fonts/circe_bold.woff') format('woff'),  url('../fonts/circe_bold.ttf') format('truetype'),  url('../fonts/circe_bold.svg#circe_bold') format('svg');
   font-weight: 700;
   font-style: normal;
 }

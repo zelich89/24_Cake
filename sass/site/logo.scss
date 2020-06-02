@@ -1,0 +1,4 @@
+.logo {
+  @include font-display(23px, 32px, bold);
+  color: $body-color;
+}

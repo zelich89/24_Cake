@@ -2,8 +2,8 @@
 //$body-bg: black;
 //$body-color: green;
 
-$grid-columns: 10 !default;
-$grid-gutter-width: 22px !default;
+$grid-columns: 10;
+$grid-gutter-width: 22px;
 
 
 $body-bg: #fbebea;
@@ -29,9 +29,9 @@ $spacers: map-merge(
 $spacers
 );
 
-$primary: #ebcb80;
-$secondary: #d1b471;
-$dark: #7d7d7d;
+$primary: #f50049;
+$secondary: rgba(#32313d, .7);
+$dark: #32313d;
 $darker: #4b4b4b;
 $light: #e6e6e6;
 $lighter: #f6f6f6;
@@ -56,7 +56,7 @@ $theme-colors
 
 $container-max-widths: (
         xl: 1264px
-) !default;
+);
 
 @import "bootstrap";
 
