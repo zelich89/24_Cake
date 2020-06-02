@@ -1,10 +1,13 @@
 // Файл обнуляющих стилей
-@import "site/nullstyle";
+//@import "site/nullstyle";
 
-//@import "../node_modules/bootstrap/scss/bootstrap";
+@import "bs/variables";
 
 @import "site/_types";
+@import "site/mixins/mixins";
+
 @import "site/style";
 @import "site/variables";
 
 //@import "site/null-bs";
+ 

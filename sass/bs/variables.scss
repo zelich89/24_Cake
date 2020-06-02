@@ -1,9 +1,7 @@
-// Your variable overrides
-//$body-bg: black;
-//$body-color: green;
-
-$grid-columns:                24 !default;
-$grid-gutter-width:           30px !default;
+$grid-columns:                10 !default;
+$grid-gutter-width:           22px !default;
+$body-bg: #fbebea;
+$body-color: #2d2829;
 
 $spacer: 2px;
 $spacers: () !default;
@@ -25,9 +23,9 @@ $spacers: map-merge(
 $spacers
 );
 
-$primary:      #ebcb80;
-$secondary:      #d1b471;
-$dark:           #7d7d7d;
+$primary:      #f50049;
+$secondary:      rgba(#2d2829, .7);
+$dark:           #32313d;
 $darker:         #4b4b4b;
 $light:          #e6e6e6;
 $lighter:         #f6f6f6;
@@ -50,4 +48,13 @@ $theme-colors: map-merge(
 $theme-colors
 );
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+  xl: 1264px
+) !default;
+
+
+@import "bootstrap";
