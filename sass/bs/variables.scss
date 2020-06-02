@@ -2,8 +2,12 @@
 //$body-bg: black;
 //$body-color: green;
 
-$grid-columns:                24 !default;
-$grid-gutter-width:           30px !default;
+$grid-columns: 10 !default;
+$grid-gutter-width: 22px !default;
+
+
+$body-bg: #fbebea;
+$body-color: #2e2829;
 
 $spacer: 2px;
 $spacers: () !default;
@@ -25,29 +29,36 @@ $spacers: map-merge(
 $spacers
 );
 
-$primary:      #ebcb80;
-$secondary:      #d1b471;
-$dark:           #7d7d7d;
-$darker:         #4b4b4b;
-$light:          #e6e6e6;
-$lighter:         #f6f6f6;
-$success:        #7feb7f;
-$danger:         #eb7f7f;
+$primary: #ebcb80;
+$secondary: #d1b471;
+$dark: #7d7d7d;
+$darker: #4b4b4b;
+$light: #e6e6e6;
+$lighter: #f6f6f6;
+$success: #7feb7f;
+$danger: #eb7f7f;
 
 $theme-colors: () !default;
 
 $theme-colors: map-merge(
 (
-      "primary":     $primary,
-      "secondary":   $secondary,
-      "$dark":       $dark,
-      "$darker":     $darker,
-      "$light":      $light,
-      "$lighter":    $lighter,
-      "$success":    $success,
-      "$danger":     $danger
+    "primary": $primary,
+    "secondary": $secondary,
+    "$dark": $dark,
+    "$darker": $darker,
+    "$light": $light,
+    "$lighter": $lighter,
+    "$success": $success,
+    "$danger": $danger
 ),
 $theme-colors
 );
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+$container-max-widths: (
+        xl: 1264px
+) !default;
+
+@import "bootstrap";
+
+
+

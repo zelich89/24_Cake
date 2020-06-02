@@ -1,4 +1,4 @@
-.text {
+.tex {
   //display: none;
   & *:not(:last-child) {
     margin-bottom: 20px;
@@ -27,4 +27,8 @@
     font-weight: bold;
     font-style: italic;
   }
+}
+
+.container {
+  //border: 1px solid #000;
 }
