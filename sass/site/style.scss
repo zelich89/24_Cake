@@ -37,12 +37,26 @@
 a, a:hover {
   text-decoration: none;
 }
+
+button, button:focus {
+  outline: none;
+}
+
 .container {
 
   &__wrapp {
-/*    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(md) {
       padding-right: $grid-gutter-width;
       padding-left: $grid-gutter-width;
-    }*/
+    }
   }
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler {
+  padding-right: 0;
 }

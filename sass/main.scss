@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+//@import "../node_modules/bootstrap/scss/bootstrap";
 @import "sass/bs/variables";
 
 @import "site/_types";
@@ -6,6 +6,10 @@
 @import "site/style";
 @import "site/variables";
 
+@import "site/maket";
 @import "site/logo";
+@import "site/btn";
 
 @import "site/header";
+@import "site/main-sect";
+@import "site/products";

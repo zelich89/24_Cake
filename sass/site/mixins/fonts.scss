@@ -7,5 +7,5 @@
 }
 
 @mixin font-display($font-size: $font-size, $line-height: $line-height, $font-weight: null) {
-  font: $font-weight #{$font-size} / #{$line-height} 'Playfair Display';
+  font: $font-weight #{$font-size} / #{$line-height} 'Display';
 }

@@ -1,0 +1,30 @@
+.btn {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color .2s ease, background-colo .2s ease;
+  @include font-circle(12px, 26px);
+  text-transform: uppercase;
+  &:hover {
+    outline: none;
+  }
+  //////////// COLOR
+  &--primary {
+    background-color: $primary;
+    color: $white;
+  }
+
+  //////////////// SIZE
+  &--medium {
+    padding: 12px 65px;
+  }
+
+  /////////////// Fiches
+  &--radius {
+    border-radius: 25px;
+  }
+}
